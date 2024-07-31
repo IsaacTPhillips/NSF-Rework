@@ -1,14 +1,9 @@
-<?php
-define('DBSERVER', 'localhost'); // Database server
-define('DBUSERNAME', 'webdev'); // Database username
-define('DBPASSWORD', 'yw'); // Database password
-define('DBNAME', 'itphillips'); // Database name
- 
-/* connect to MySQL database */
-$db = mysqli_connect(DBSERVER, DBUSERNAME, DBPASSWORD, DBNAME);
- 
-// Check db connection
-if($db === false){
-    die("Error: connection error. " . mysqli_connect_error());
-}
+<?php 
+
+$db_user = "root";
+$db_pass = "";
+$db_name = "useraccounts";
+
+$db = new PDO('mysql:host=localhost;dbname=' . $db_name . ';charset=utf8', $db_user, $db_pass);
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>

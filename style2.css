@@ -1,0 +1,99 @@
+/* 
+Colors:
+Dark teel: 10889E
+Light teel: E1F1F2
+Medium teel: 45bcd2
+Grey Teel: 445566
+*/
+
+body {
+    background-color: #16b3cf;
+    font-family: Verdana;
+  }
+  
+  #container {
+    width: 960px;
+    margin: auto;
+    background-color: #c7d2d3;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #617589;
+    font-family: Georgia, Times, Serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #6d8195;
+    padding: 0px;
+  }
+  
+  h3 {
+    color: #6e8caa;
+    margin: 0px;
+  }
+  
+  nav {
+    background-color: #147384;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 5px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    color: rgb(209, 207, 207);
+  }
+  
+  aside {
+    width: 200px;
+    height: 350px;
+    border: 1px solid #096475;
+    float: left;
+    margin-left: 30px;
+    padding: 5px;
+  }
+  
+  #main {
+    width: 650px;
+    float: right;
+    margin-right: 30px;
+    line-height: 20px;
+  }
+  
+  footer {
+    height: 50px;
+    background-color: rgb(157, 151, 151);
+    clear: both;
+  }
+  
+  footer ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  footer li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  footer li a {
+    color: black;
+  }
